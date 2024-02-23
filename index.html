@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam Cycling Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#rental">Rental</a></li>
+                <li><a href="#weekly">Weekly Rides</a></li>
+                <li><a href="#join-us">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="flags title">
+            <img src="./img/flag2d.png" alt="Vietnam Flag">
+            <h1>Vietnam Cycling Club</h1>
+            <img src="./img/flag2d.png" alt="Vietnam Flag">
+        </div>
+        <div id="about">
+            <div class="text-box">
+                <h2>We unite all cyclists around Viet Nam</h2>
+                <p>Started as a group of university friends, cycling after classes, we grew into largest community in great country of Viet Nam! 
+                    <br><br>Now VCC counts more than thousand cyclists, meeting for a ride each week, using our platform. Also we provide rental services in 
+                    three cities. This cities are tourists' beloved destinations: Ho Chi Minh, Ha Noi and Da Nang.<br><br>
+                    Tourists love to take a single ride through the city or countryside. Some of them join our weekly rides and get unique experience. <br><br>
+                    Viet Nam is known for it's beautiful nature an all-year comfortable weather. So bicycles are favourite transport for vietnamese guys, giving way only to a motorbikes. <br><br> We all know, that bicycle has no competitors, when it comes to healthy lifestyle
+                </p>
+            </div>
+        </div>
+        <div id="rental">
+            <div class="title">
+                <h2>Rental Bikes</h2>
+            </div>
+            <div class="list">
+                <div class="product">
+                    <h3>TREK DOMANE SL 7</h3>
+                    <div class="img-box">
+                        <img src="./img/bike1.png" alt="Rental Bike 1">
+                    </div>
+                    <p>Max speed: 80 km/h</p>
+                    <p>Good for a long trips</p>
+                    <p>GPS Computer included</p>
+                    <p><strong>280.000 VND/day</strong></p>
+                    <br>
+                    <button>Rent</button>
+                </div>
+                <div class="product">
+                    <h3>TREK DOMANE AL 5 DISC</h3>
+                    <div class="img-box">
+                        <img src="./img/bike2.png" alt="Rental Bike 1">
+                    </div>
+                    <p>Max speed: 90 km/h</p>
+                    <p>Good for a curvy mountain roads</p>
+                    <p>GPS Computer included</p>
+                    <p><strong>320.000 VND/day</strong></p>
+                    <br>
+                    <button>Rent</button>
+                </div>
+                <div class="product">
+                    <h3>TREK VERVE+ ELECTRIC HYBRID</h3>
+                    <div class="img-box">
+                        <img src="./img/bike3.png" alt="Rental Bike 1">
+                    </div>
+                    <p>Max speed: 50 km/h</p>
+                    <p>Electric hybrid for city surfing</p>
+                    <p>GPS Computer included</p>
+                    <p><strong>350.000 VND/day</strong></p>
+                    <br>
+                    <button>Rent</button>
+                </div>
+                <div class="product">
+                    <h3>TREK DOMANE+ SLR 7 <br>ELECTRIC ROAD BIKE</h3>
+                    <div class="img-box">
+                        <img src="./img/bike4.png" alt="Rental Bike 1">
+                    </div>
+                    <p>Max speed: 110 km/h</p>
+                    <p>Electric highway machine. <br>Better than motorcycle</p>
+                    <p>GPS Computer included</p>
+                    <p><strong>500.000 VND/day</strong></p>
+                    <br>
+                    <button>Rent</button>
+                </div>
+            </div>
+        </div>
+        <div id="weekly">
+            <div class="title">
+                <h2>Our Weekly Rides</h2>
+            </div>
+            <div class="gallery">
+                <div class="img-box 1">
+                    <img src="./img/cycling1.jpeg" alt="Vietnamese cycle racer">
+                </div>
+                <div class="img-box 2">
+                    <img src="./img/cycling3.jpg" alt="Support on a road">
+                </div>
+                <div class="img-box 3">
+                    <img src="./img/cycling2.jpeg" alt="Sunset ride">
+                </div>
+                <div class="img-box 4">
+                    <img src="./img/cycling5.jpeg" alt="Forest ride">
+                </div>
+                <div class="img-box 5">
+                    <img src="./img/cycling12.jpeg" alt="GT bicycle">
+                </div>
+                <div class="img-box 6">
+                    <img src="./img/cycling6.jpeg" alt="Tourists in Dalat">
+                </div>
+                <div class="img-box 7">
+                    <img src="./img/cycling13.jpeg" alt="City bicycle ride">
+                </div>
+                <div class="img-box 8">
+                    <img src="./img/cycling14.jpeg" alt="Road race">
+                </div>
+            </div>
+        </div>
+        <div id="join-us">
+            <div class="title">
+                <h2>Want to go with us?</h2>
+            </div>
+            <div class="product" id="form-join">
+                <form action="#" method="get">
+                    <input type="text" name="name" class="input-box" placeholder="Your Name*" required><br>
+                    <input type="text" name="email" class="input-box" placeholder="E-Mail*" required><br>
+                    <input type="text" name="city" class="input-box" placeholder="City*" required><br>
+                    <label for="experience">Years of experience:</label><br>
+                    <input type="range" name="experience" id="experience" max="10" min="1" step="0.5" list="years"><br>
+                    <datalist id="years">
+                        <option value="1" label="1"></option>
+                        <option value="5.5" label="5"></option>
+                        <option value="10" label="10"></option>
+                    </datalist>
+                    <textarea name="box" id="box" class="input-box" placeholder="Share your expectations"></textarea>
+                    <br><button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+        <footer class="title">
+            <p>2024 Oleg Grigorenko Copyright</p>
+        </footer>
+    </main>
+</body>
+</html>
